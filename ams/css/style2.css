@@ -1,0 +1,119 @@
+body {
+    background-color: darkblue;
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    
+}
+
+.img {
+    position: fixed;
+    display: flex;
+    margin-top: 2px;
+    width: 90%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(5, 5, 77);
+    width: 100%;
+    left: -2px;
+    top: -2px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    /* font-size: 80%; */
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+label {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+input {
+    margin-bottom: 40px;
+}
+
+.audit-form-container input[type="text"],
+.audit-form-container input[type="password"],
+.audit-form-container input[type="email"],
+.audit-form-container input[type="datetime-local"]{
+    width: 95%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    
+}
+
+.audit-form-container input[type="submit"] {
+    width: 100%;
+    color: rgb(10, 10, 13);
+    background-color: rgb(32, 225, 94);
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.audit-form-container input[type="submit"]:hover {
+    color: bisque;
+    background-color: rgb(62, 15, 216);
+}
+
+
+footer {
+    position: fixed;
+    left: -2px;
+    /* align-items: center; */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    /* margin-bottom: -10vh; */
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    margin-top: 200px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    align-items: center;
+    height: 70vh;
+    /* flex-direction: row; */
+    /* padding: 40px; */
+}
+
+.audit-form-container {
+    width: 40%;
+    float: inline-start;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: #544e4e;
+    /* margin: 100px; */
+}
